@@ -26,7 +26,7 @@ class Nav extends React.Component {
                     {/* Make sure to keep nav-mobile in top nav*/}
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
           
-                        <li><a className="homebtn" href="/">Home</a></li>
+                        <li><a className="homebtn" href="/Home">Home</a></li>
                         <li><a className="resumebtn" href="/Story">Story</a></li>
                         <li><a className="resumebtn" href="/About">About</a></li>
                         <li><a className="contactbtn" href="/Overview">Virtual Retreat</a></li>
@@ -36,7 +36,7 @@ class Nav extends React.Component {
             </nav>
 
 <ul id="slide-out" className="sidenav white-text !important blue mobile-menu">
-    <li><a className="homebtn" href="/">Home</a></li>
+    <li><a className="homebtn" href="/Home">Home</a></li>
     <li><a className="resumebtn" href="/Story">Story</a></li>
     <li><a className="resumebtn" href="/About">About</a></li>
     <li><a className="contactbtn" href="/Overview">Virtual Retreat</a></li>

@@ -13,6 +13,7 @@ class Overview extends React.Component {
                     to dispel societal prejudices. 
                     <br/>
                     <br/>
+                    
                     <b>Participants can expect to develop skills such as:</b>
                         <ul>
                         <li>making inferences</li>
@@ -35,8 +36,12 @@ class Overview extends React.Component {
                         <li>Session D: August 10-14 (10am-12pm)</li>
                         <li>Session E: August 10-14 (1pm-3pm)</li>
                         </ul>
-<br/>
-<b>Cost: Free to participants</b>
+
+                    <b>Technology requirements:</b>
+                    <p>An internet-enabled device that your child will use to connect to Zoom sessions for two hours per day throughout the week of the retreat</p>
+                    
+                        <br/>
+                    <b>Cost: Free to participants</b>
 </p>
             </div>
         )

@@ -11,6 +11,7 @@ import Overview from './Components/Overview';
 import Story from './Components/Story';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import FAQ from './Components/FAQ';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
      <Switch><Route path="/About" component={About}/></Switch>
      <Switch><Route path="/Overview" component={Overview}/></Switch>
      <Switch><Route path="/Contact" component={Contact}/></Switch>
+     <Switch><Route path="/FAQ" component={FAQ}/></Switch>
     <Footer/>
      </Router>
     </div>

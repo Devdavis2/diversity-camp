@@ -58,7 +58,15 @@ body::after {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 60vh;
+  min-height: 50vh;
+}
+
+.applybtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .page-footer {

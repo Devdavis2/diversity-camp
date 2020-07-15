@@ -4,7 +4,7 @@ class Overview extends React.Component {
     render () {
         return (
             <div className = "container">
-                <h2>Virtual Summer Retreat </h2>
+                <h1>Virtual Summer Retreat </h1>
 
                 
 

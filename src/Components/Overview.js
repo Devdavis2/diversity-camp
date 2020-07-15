@@ -4,7 +4,7 @@ class Overview extends React.Component {
     render () {
         return (
             <div>
-                <h1>Virtual Summer Retreat Overview</h1>
+                <h1>Virtual Summer Retreat </h1>
                     <p>During the Virtual Summer Retreat, your child will have the opportunity to connect with a diverse group of peers<br/>
                     and engage in discussions and project-based learning that will deepen their understanding of how experiences shape <br/>
                     people’s perceptions of the world. These discussions and projects are designed to address the major upper elementary <br/>
@@ -13,7 +13,7 @@ class Overview extends React.Component {
                     to dispel societal prejudices. 
                     <br/>
                     <br/>
-                    
+
                     <b>Participants can expect to develop skills such as:</b>
                         <ul>
                         <li>making inferences</li>

@@ -28,7 +28,7 @@ class Overview extends React.Component {
                         <li>developing and using models to organize information</li>
                         </ul>
 
-                    <h2>Virtual Summer Retreat Session Dates/Times:</h2>
+                    <h2>Session Dates/Times:</h2>
                         <ul>              
                         <li>Session A: July 27-31 (2pm-4pm)</li>
                         <li>Session B: August 3-7 (10am-12pm)</li>

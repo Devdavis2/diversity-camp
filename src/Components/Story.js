@@ -3,7 +3,7 @@ import React from 'react'
 class Story extends React.Component {
     render () {
         return (
-            <div>
+            <div className = "container">
                 <h1>Our Story</h1>
                 <p>Recent events have exposed the racial tensions that exist as a result of the longstanding injustices that have been in place for people of color. Many of these injustices have resulted from the biases that are perpetuated when a person has limited opportunities for interaction with people outside of their own race and culture. 
 

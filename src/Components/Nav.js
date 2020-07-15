@@ -30,6 +30,7 @@ class Nav extends React.Component {
                         <li><a className="resumebtn" href="/Story">Story</a></li>
                         <li><a className="resumebtn" href="/About">About</a></li>
                         <li><a className="contactbtn" href="/Overview">Virtual Retreat</a></li>
+                        <li><a className="contactbtn" href="/Contact">Contact</a></li>
               
                     </ul>
                 </div>
@@ -40,6 +41,7 @@ class Nav extends React.Component {
     <li><a className="resumebtn" href="/Story">Story</a></li>
     <li><a className="resumebtn" href="/About">About</a></li>
     <li><a className="contactbtn" href="/Overview">Virtual Retreat</a></li>
+    <li><a className="contactbtn" href="/Contact">Contact</a></li>
 </ul>
             </div>
         )

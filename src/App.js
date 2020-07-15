@@ -9,6 +9,8 @@ import Home from './Components/Home'
 import About from './Components/About';
 import Overview from './Components/Overview';
 import Story from './Components/Story';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
      <Switch><Route path="/Story" component={Story}/></Switch>
      <Switch><Route path="/About" component={About}/></Switch>
      <Switch><Route path="/Overview" component={Overview}/></Switch>
+     <Switch><Route path="/Contact" component={Contact}/></Switch>
+    <Footer/>
      </Router>
     </div>
   );

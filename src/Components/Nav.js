@@ -18,6 +18,7 @@ class Nav extends React.Component {
     render () {
         return (
             <div>
+                <div className = "navbar-fixed">
                 <nav className="black blue-text !important">
                     <div className="nav-wrapper">
                     <a href="#" className="sidenav-trigger" data-target="slide-out"> 
@@ -27,20 +28,23 @@ class Nav extends React.Component {
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
           
                         <li><a className="homebtn" href="/Home">Home</a></li>
+                        <li><a className="contactbtn" href="/Overview">Virtual Retreat</a></li>
                         <li><a className="resumebtn" href="/Story">Story</a></li>
                         <li><a className="resumebtn" href="/About">About</a></li>
-                        <li><a className="contactbtn" href="/Overview">Virtual Retreat</a></li>
+                        <li><a className="contactbtn" href="/FAQ">FAQ</a></li>
                         <li><a className="contactbtn" href="/Contact">Contact</a></li>
               
                     </ul>
                 </div>
             </nav>
+            </div>
 
 <ul id="slide-out" className="sidenav white-text !important blue mobile-menu">
     <li><a className="homebtn" href="/Home">Home</a></li>
+    <li><a className="contactbtn" href="/Overview">Virtual Retreat</a></li>
     <li><a className="resumebtn" href="/Story">Story</a></li>
     <li><a className="resumebtn" href="/About">About</a></li>
-    <li><a className="contactbtn" href="/Overview">Virtual Retreat</a></li>
+    <li><a className="contactbtn" href="/FAQ">FAQ</a></li>
     <li><a className="contactbtn" href="/Contact">Contact</a></li>
 </ul>
             </div>

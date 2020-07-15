@@ -4,7 +4,7 @@ class About extends React.Component {
     render () {
         return (
             <div className = "container">
-                <h1>About Section</h1>
+                <h1>About Us</h1>
 
                 <p>The instructors at Collage Cooperative have over 25 years of combined teaching experience in public and charter schools. 
                     <br/>

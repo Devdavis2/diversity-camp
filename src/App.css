@@ -1,5 +1,16 @@
+.body {
+  min-height:100%; padding:0; margin:0; position:relative
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: .5em; /* Set same as footer's height */
+}
+
 .App {
-  text-align: center;
+  text-align: left;
+
 }
 
 .App-logo {
@@ -35,4 +46,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.contact-header {
+  text-align: center;
+}
+
+.contact-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60vh;
+}
+
+.page-footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: .5em;
 }

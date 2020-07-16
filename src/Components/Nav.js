@@ -23,7 +23,7 @@ class Nav extends React.Component {
                     <div className="nav-wrapper">
                     <a href="#" className="sidenav-trigger" data-target="slide-out"> 
                     <i className="material-icons">menu</i></a>
-                    <a className="brand-logo center" href="#" >Collage Cooperative<img className="menulogo"/></a>
+                    <a className="brand-logo center" href="#" >Logo<img className="menulogo"/></a>
                     {/* Make sure to keep nav-mobile in top nav*/}
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
           
@@ -38,7 +38,7 @@ class Nav extends React.Component {
             </nav>
             </div>
 
-<ul id="slide-out" className="sidenav white-text !important blue mobile-menu">
+<ul id="slide-out" className="sidenav white-text !important white mobile-menu">
     <li><a className="homebtn" href="/Home">Home</a></li>
     <li><a className="contactbtn" href="/Overview">Virtual Retreat</a></li>
     <li><a className="resumebtn" href="/About">About</a></li>

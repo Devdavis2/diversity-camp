@@ -13,8 +13,10 @@ class Story extends React.Component {
                 
                 <br/>
                 <br/>
-                Collage Cooperative holds the belief that systemic change can occur if students create and maintain a deeper understanding of people of other cultures, races, and backgrounds. We are leveraging technology to give students an authentic experience to work with others who, because of geography, they may not have interacted with otherwise. We want to work alongside families to reinforce their values and foster a well-rounded view of the world. Ultimately, we aim to create a safe space for students to learn with and from diverse educators and peers. 
-</p>
+                Collage Cooperative holds the belief that systemic change can occur if students create and maintain a deeper understanding of people of other cultures, races, 
+                and backgrounds. We are leveraging technology to give students an authentic experience to work with others who, because of geography, they may not have interacted
+                with otherwise. We want to work alongside families to reinforce their values and foster a well-rounded view of the world. Ultimately, we aim to create a safe space
+                for students to learn with and from diverse educators and peers.</p>
             </div>
         )
     }

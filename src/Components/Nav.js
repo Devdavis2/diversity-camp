@@ -23,13 +23,12 @@ class Nav extends React.Component {
                     <div className="nav-wrapper">
                     <a href="#" className="sidenav-trigger" data-target="slide-out"> 
                     <i className="material-icons">menu</i></a>
-                    <a className="brand-logo center" href="#" ><img className="menulogo"/></a>
+                    <a className="brand-logo center" href="#" >Collage Cooperative<img className="menulogo"/></a>
                     {/* Make sure to keep nav-mobile in top nav*/}
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
           
                         <li><a className="homebtn" href="/Home">Home</a></li>
                         <li><a className="contactbtn" href="/Overview">Virtual Retreat</a></li>
-                        <li><a className="resumebtn" href="/Story">Story</a></li>
                         <li><a className="resumebtn" href="/About">About</a></li>
                         <li><a className="contactbtn" href="/FAQ">FAQ</a></li>
                         <li><a className="contactbtn" href="/Contact">Contact</a></li>
@@ -42,7 +41,6 @@ class Nav extends React.Component {
 <ul id="slide-out" className="sidenav white-text !important blue mobile-menu">
     <li><a className="homebtn" href="/Home">Home</a></li>
     <li><a className="contactbtn" href="/Overview">Virtual Retreat</a></li>
-    <li><a className="resumebtn" href="/Story">Story</a></li>
     <li><a className="resumebtn" href="/About">About</a></li>
     <li><a className="contactbtn" href="/FAQ">FAQ</a></li>
     <li><a className="contactbtn" href="/Contact">Contact</a></li>

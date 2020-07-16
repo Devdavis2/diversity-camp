@@ -5,7 +5,7 @@
 body::after {
   content: '';
   display: block;
-  height: .5em; /* Set same as footer's height */
+  /* height: .5em; Set same as footer's height */
 }
 
 .App {
@@ -48,6 +48,30 @@ body::after {
   }
 }
 
+/* .home-page {
+  text-align: center;
+} */
+
+.applybtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Lauren {
+  height: 10em;
+}
+
+.Jena {
+  height: 10em;
+}
+
+.Kevin {
+  height: 10em;
+}
+
 .contact-header {
   text-align: center;
 }
@@ -61,18 +85,12 @@ body::after {
   min-height: 50vh;
 }
 
-.applybtn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+
 
 .page-footer {
   text-align: center;
-  position: absolute;
+  position: fixed;
   bottom: 0%;
   width: 100%;
-  height: .5em;
+  /* height: 5em; */
 }

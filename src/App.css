@@ -1,16 +1,21 @@
 .body {
-  min-height:100%; padding:0; margin:0; position:relative
+  background-color: #429f85;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
 }
 
 body::after {
-  content: '';
+  content: "";
   display: block;
   /* height: .5em; Set same as footer's height */
 }
 
 .App {
   text-align: left;
-
+  background-color: #429f85;
+  height: 100%;
 }
 
 .App-logo {
@@ -52,12 +57,69 @@ body::after {
   text-align: center;
 } */
 
+.menulogo {
+  max-width: 1.5em;
+  padding-top: 0.3em;
+}
+
+.homebtn {
+  color: #bb4c9c;
+}
+
+.overviewtbtn {
+  color: #bb4c9c;
+}
+
+.aboutbtn {
+  color: #bb4c9c;
+}
+
+.faqbtn {
+  color: #bb4c9c;
+}
+
+.contactbtn {
+  color: #bb4c9c;
+}
+
+/* .applyhere {
+  color: #bb4c9c !important;
+} */
+
+.home-headline {
+  font-size: 2.9em;
+  height: 0.7.4em;
+}
+
+.home-copy {
+  text-align: justify;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .applybtn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.overview-headline {
+  font-size: 3.2em;
 }
 
 .Lauren {
@@ -84,8 +146,6 @@ body::after {
   text-align: center;
   min-height: 50vh;
 }
-
-
 
 .page-footer {
   text-align: center;

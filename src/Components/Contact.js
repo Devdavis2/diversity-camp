@@ -8,7 +8,10 @@ class Contact extends React.Component {
         <p className="contact-copy">
           Questions? Feel free to contact us at:
           <b>
-            <a href="mailto:collagecooperativeinfo@gmail.com">
+            <a
+              className="white-text"
+              href="mailto:collagecooperativeinfo@gmail.com"
+            >
               collagecooperativeinfo@gmail.com
             </a>
           </b>
@@ -20,6 +23,10 @@ class Contact extends React.Component {
             Apply Here
           </a>
         </p>
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <br />
         <br />

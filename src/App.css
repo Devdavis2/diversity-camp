@@ -87,12 +87,20 @@ body::after {
 } */
 
 .home-headline {
-  font-size: 2.9em;
+  font-size: 3em;
   height: 0.7.4em;
 }
 
 .home-copy {
   text-align: justify;
+}
+
+.home-header {
+  background-image: url("./Components/Images/Home_page.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 3em;
 }
 
 .iframe-container {
@@ -145,6 +153,14 @@ body::after {
   align-items: center;
   text-align: center;
   min-height: 50vh;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 .page-footer {

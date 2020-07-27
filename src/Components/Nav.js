@@ -28,7 +28,10 @@ class Nav extends React.Component {
                 <img className="menulogo" src={Collage_Cooperative_logo} />
               </a>
               {/* Make sure to keep nav-mobile in top nav*/}
-              <ul id="nav-mobile" className="right hide-on-med-and-down">
+              <ul
+                id="nav-mobile"
+                className="nav-mobile right hide-on-med-and-down"
+              >
                 <li>
                   <a className="homebtn" href="/Home">
                     Home
@@ -59,10 +62,7 @@ class Nav extends React.Component {
           </nav>
         </div>
 
-        <ul
-          id="slide-out"
-          className="sidenav white-text !important white mobile-menu"
-        >
+        <ul id="slide-out" className="sidenav !important mobile-menu">
           <li>
             <a className="homebtn" href="/Home">
               Home

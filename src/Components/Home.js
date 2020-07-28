@@ -11,6 +11,7 @@ class Home extends React.Component {
             {" "}
             <b className="white-text">Virtual Summer Retreat</b>
           </h1>
+          <br />
           <h5 className="home-sub-healine white-text container">
             <i>Socially Distanced, Culturally Connected</i>
           </h5>

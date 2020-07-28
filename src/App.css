@@ -91,9 +91,9 @@ body::after {
 }
 
 .home-sub-healine {
-  font-size: 1.44em;
+  font-size: 1.5em;
   height: 2.5em;
-  /* padding-top: 1em; */
+  padding-top: 1em;
 }
 
 .home-copy {

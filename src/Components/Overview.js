@@ -4,7 +4,9 @@ class Overview extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1 className="overview-headline">Virtual Summer Retreat </h1>
+        <h1 className="white-text overview-headline">
+          <b>2020 Summer Retreat</b>{" "}
+        </h1>
 
         <p>
           During the Virtual Summer Retreat, your child will have the

@@ -4,7 +4,9 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1 className="contact-header">Contact Us</h1>
+        <h1 className="contact-header white-text">
+          <b>Contact Us</b>
+        </h1>
         <p className="contact-copy">
           Questions? Feel free to contact us at:
           <b>

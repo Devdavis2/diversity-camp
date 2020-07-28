@@ -4,7 +4,9 @@ class FAQ extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1>FAQ's</h1>
+        <h1 className="FAQ-header white-text">
+          <b>FAQ's</b>
+        </h1>
         <b>When is the Virtual Summer Retreat?</b>
         <br />
         For Summer 2020, there are five possible sessions of the Virtual Summer

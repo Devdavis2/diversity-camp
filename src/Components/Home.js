@@ -9,10 +9,10 @@ class Home extends React.Component {
         <div className="home-header responsive-img">
           <h1 className="home-headline container">
             {" "}
-            <b className="white-text ">Virtual Summer Retreat</b>
+            <b className="white-text">Virtual Summer Retreat</b>
           </h1>
-          <h5 className="white-text container">
-            <i>Socially distanced, culturally connected</i>
+          <h5 className="home-sub-healine white-text container">
+            <i>Socially Distanced, Culturally Connected</i>
           </h5>
         </div>
 

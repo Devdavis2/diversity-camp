@@ -1,3 +1,5 @@
+/* Fixed Footer settings */
+
 .body {
   background-color: #429f85;
   min-height: 100%;
@@ -6,10 +8,10 @@
   position: relative;
 }
 
+/* Fixed Footer settings */
 body::after {
   content: "";
   display: block;
-  /* height: .5em; Set same as footer's height */
 }
 
 .App {
@@ -53,10 +55,6 @@ body::after {
   }
 }
 
-/* .home-page {
-  text-align: center;
-} */
-
 .menulogo {
   max-width: 1.5em;
   padding-top: 0.3em;
@@ -86,13 +84,16 @@ body::after {
   color: #bb4c9c;
 }
 
-/* .applyhere {
-  color: #bb4c9c !important;
-} */
-
 .home-headline {
-  font-size: 3em;
-  height: 0.7.4em;
+  font-size: 2.4em;
+  height: 1.75em;
+  padding-top: 1em;
+}
+
+.home-sub-healine {
+  font-size: 1.44em;
+  height: 3em;
+  padding-top: 1em;
 }
 
 .home-copy {
@@ -130,8 +131,14 @@ body::after {
   text-align: center;
 }
 
+/* Overview page */
 .overview-headline {
-  font-size: 3.2em;
+  font-size: 3em;
+}
+
+/* About page */
+.about-header {
+  font-size: 3em;
 }
 
 .Lauren {
@@ -146,7 +153,14 @@ body::after {
   height: 10em;
 }
 
+/* FAQ page */
+.FAQ-header {
+  font-size: 3em;
+}
+
+/* Contact Page */
 .contact-header {
+  font-size: 3em;
   text-align: center;
 }
 
